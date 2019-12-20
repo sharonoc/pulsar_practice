@@ -1,0 +1,7 @@
+bin/pulsar-admin sinks create \
+--tenant public \
+--namespace default \
+--name cassandra-test-sink \
+--sink-type cassandra \
+--sink-config-file examples/cassandra-sink.yml \
+--inputs test_cassandra

@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+option java_outer_classname = "LongStringProto";
+
+message LongString {
+    // Always use the optional setting, 'required' causes breaking changes and is discouraged by the creators
+    optional string temperature = 1;
+}
